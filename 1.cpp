@@ -32,3 +32,9 @@ void agregarEstudiante(Nodo **lista, Estudiante estudiante) {
         printf("Error: no se pudo asignar memoria para el estudiante.\n");
     }
 }
+
+
+void verEstudiante(Nodo *lista) {
+    while (lista != NULL) {
+        printf("Nombre: %s\n", lista->estudiante.nombre);
+        printf("Edad: %d\n", lista->estudiante.edad);
