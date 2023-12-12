@@ -38,3 +38,7 @@ void verEstudiante(Nodo *lista) {
     while (lista != NULL) {
         printf("Nombre: %s\n", lista->estudiante.nombre);
         printf("Edad: %d\n", lista->estudiante.edad);
+        printf("Promedio: %.2f\n", lista->estudiante.promedio);
+        lista = lista->siguiente;
+    }
+}
