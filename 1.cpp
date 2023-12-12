@@ -93,3 +93,5 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
         verEstudiante(listaEstudiantes);
 
         eliminarEstudiante(&listaEstudiantes, "Juan");
+
+        verEstudiante(listaEstudiantes);
