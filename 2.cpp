@@ -15,3 +15,7 @@ variable.entero = 3;
 printf("Entero: %d\n", variable.entero);
 
 variable.flotante = 21.34;
+printf("Flotante: %.2f\n", variable.flotante);
+
+strcpy(variable.cadena, "¿Quieres tarta de queso?");
+printf("Cadena: %s\n", variable.cadena);
