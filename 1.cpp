@@ -27,3 +27,8 @@ void agregarEstudiante(Nodo **lista, Estudiante estudiante) {
     Nodo *nodo = nuevoNodo(estudiante);
     if (nodo != NULL) {
         nodo->siguiente = *lista;
+        *lista = nodo;
+    } else {
+        printf("Error: no se pudo asignar memoria para el estudiante.\n");
+    }
+}
