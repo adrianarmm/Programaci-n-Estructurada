@@ -2,7 +2,7 @@
 #include <string.h>
 
 typedef struct Estudiante {
- char nombre[50];
+ char nombre[100];
  int edad;
  float promedio;
 } Estudiante;
