@@ -15,3 +15,7 @@ Estudiante copiarEstudiante(Estudiante estudiante) {
     copia.promedio = estudiante.promedio;
     return copia;
     }
+
+
+int main() {
+    Estudiante estudiante1;
