@@ -12,3 +12,9 @@ void imprimir(Estudiante estudiante) {
  printf("Edad: %d\n", estudiante.edad);
  printf("Promedio: %.2f\n", estudiante.promedio);
 }
+
+int main() {
+ Estudiante estudiante1;
+ strcpy(estudiante1.nombre, "Juan Pérez");
+ estudiante1.edad = 20;
+ estudiante1.promedio = 85.0;
