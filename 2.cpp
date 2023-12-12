@@ -7,3 +7,7 @@ typedef union {
     float flotante;
     char cadena[100];
 } UniVar;
+
+int main()
+}
+UniVar variable;
