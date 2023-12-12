@@ -47,8 +47,7 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
     Nodo *actual = *lista;
     Nodo *anterior = NULL;
 
-    void eliminarEstudiante(Nodo **lista, char *nombre)
-    {
+    void eliminarEstudiante(Nodo **lista, char *nombre) {
 
         Nodo *actual = *lista;
         Nodo *anterior = NULL;
