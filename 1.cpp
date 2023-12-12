@@ -80,3 +80,5 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
         strcpy(estudiante1.nombre, "Juan");
         estudiante1.edad = 20;
         estudiante1.promedio = 90;
+
+        agregarEstudiante(&listaEstudiantes, estudiante1);
