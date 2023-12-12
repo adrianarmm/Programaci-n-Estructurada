@@ -47,7 +47,9 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
     Nodo *actual = *lista;
     Nodo *anterior = NULL;
 
-    void eliminarEstudiante(Nodo **lista, char *nombre) {
+    void eliminarEstudiante(Nodo **lista, char *nombre)
+    {
+
         Nodo *actual = *lista;
         Nodo *anterior = NULL;
 
@@ -64,7 +66,7 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
 
         free(actual);
     }
-
+}
     void liberarMemoria(Nodo **lista) {
         while (*lista != NULL) {
             Nodo *temp = *lista;
