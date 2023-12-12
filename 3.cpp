@@ -19,3 +19,6 @@ Estudiante copiarEstudiante(Estudiante estudiante) {
 
 int main() {
     Estudiante estudiante1;
+    strcpy(estudiante1.nombre, "Adriana Reyes");
+    estudiante1.edad = 18;
+    estudiante1.promedio = 9;
