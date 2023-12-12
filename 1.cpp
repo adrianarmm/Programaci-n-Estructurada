@@ -102,4 +102,3 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
 
         return 0;
     }
-}
