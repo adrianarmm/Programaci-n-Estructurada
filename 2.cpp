@@ -8,6 +8,8 @@ typedef union {
     char cadena[100];
 } UniVar;
 
-int main()
-}
+int main()  {
 UniVar variable;
+
+variable.entero = 3;
+printf("Entero: %d\n", variable.entero);
