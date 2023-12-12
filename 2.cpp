@@ -18,4 +18,7 @@ variable.flotante = 21.34;
 printf("Flotante: %.2f\n", variable.flotante);
 
 strcpy(variable.cadena, "¿Quieres tarta de queso?");
-printf("Cadena: %s\n", variable.cadena);
+printf("Cadena: %s\n", variable.cadena)
+
+return 0;
+}
