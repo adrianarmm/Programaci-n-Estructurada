@@ -55,3 +55,9 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
             printf("No se encontró al estudiante con el nombre proporcionado.\n");
             return;
         }
+
+        if (anterior == NULL) {
+            *lista = actual->siguiente;
+        } else {
+            anterior->siguiente = actual->siguiente;
+        }
