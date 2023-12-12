@@ -1,3 +1,3 @@
-//
-// Created by Adriana Reyes Morera on 12/12/23.
-//
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h
