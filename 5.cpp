@@ -15,6 +15,6 @@ void imprimir(Estudiante estudiante) {
 
 int main() {
  Estudiante estudiante1;
- strcpy(estudiante1.nombre, "Juan Pérez");
- estudiante1.edad = 20;
- estudiante1.promedio = 85.0;
+ strcpy(estudiante1.nombre, "Adriana Reyes");
+    estudiante1.edad = 18;
+    estudiante1.promedio = 9.5;
