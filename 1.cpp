@@ -72,3 +72,6 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
             free(temp);
         }
     }
+
+    int main() {
+        Nodo *listaEstudiantes = NULL;
