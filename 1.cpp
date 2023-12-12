@@ -61,3 +61,6 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
         } else {
             anterior->siguiente = actual->siguiente;
         }
+
+        free(actual);
+    }
