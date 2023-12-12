@@ -6,3 +6,9 @@ typedef struct Estudiante {
  int edad;
  float promedio;
 } Estudiante;
+
+void imprimir(Estudiante estudiante) {
+ printf("Nombre: %s\n", estudiante.nombre);
+ printf("Edad: %d\n", estudiante.edad);
+ printf("Promedio: %.2f\n", estudiante.promedio);
+}
