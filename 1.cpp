@@ -22,3 +22,8 @@ Nodo *nuevoNodo(Estudiante estudiante) {
     }
     return nodo;
 }
+
+void agregarEstudiante(Nodo **lista, Estudiante estudiante) {
+    Nodo *nodo = nuevoNodo(estudiante);
+    if (nodo != NULL) {
+        nodo->siguiente = *lista;
