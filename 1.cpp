@@ -65,7 +65,7 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
 
         free(actual);
     }
-}
+
     void liberarMemoria(Nodo **lista) {
         while (*lista != NULL) {
             Nodo *temp = *lista;
