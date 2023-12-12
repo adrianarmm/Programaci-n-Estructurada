@@ -8,3 +8,5 @@ typedef struct {
     float promedio;
     } Estudiante;
 
+Estudiante copiarEstudiante(Estudiante estudiante) {
+
