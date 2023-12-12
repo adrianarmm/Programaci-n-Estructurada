@@ -12,3 +12,9 @@ typedef struct Nodo {
     Estudiante estudiante;
     struct Nodo *siguiente;
 } Nodo;
+
+Nodo *nuevoNodo(Estudiante estudiante) {
+    Nodo *nodo = (Nodo *)malloc(sizeof(Nodo));
+    if (nodo != NULL) {
+        nodo->estudiante = estudiante;
+        nodo->siguiente = NULL;
