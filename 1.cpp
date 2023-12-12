@@ -89,3 +89,5 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
         estudiante2.promedio = 10;
 
         agregarEstudiante(&listaEstudiantes, estudiante2);
+
+        verEstudiante(listaEstudiantes);
