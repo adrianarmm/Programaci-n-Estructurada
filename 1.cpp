@@ -47,7 +47,10 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
     Nodo *actual = *lista;
     Nodo *anterior = NULL;
 
-
+    while (actual != NULL && strcmp(actual->estudiante.nombre, nombre) != 0) {
+        anterior = actual;
+        actual = actual->siguiente;
+    }
 
         if (actual == NULL) {
             printf("No se encontró al estudiante con el nombre proporcionado.\n");
