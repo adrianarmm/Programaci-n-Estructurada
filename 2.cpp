@@ -13,3 +13,5 @@ UniVar variable;
 
 variable.entero = 3;
 printf("Entero: %d\n", variable.entero);
+
+variable.flotante = 21.34;
