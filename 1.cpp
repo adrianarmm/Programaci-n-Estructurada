@@ -42,3 +42,7 @@ void verEstudiante(Nodo *lista) {
         lista = lista->siguiente;
     }
 }
+
+void eliminarEstudiante(Nodo **lista, char *nombre) {
+    Nodo *actual = *lista;
+    Nodo *anterior = NULL;
