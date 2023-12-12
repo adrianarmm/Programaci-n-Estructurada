@@ -75,3 +75,8 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
 
     int main() {
         Nodo *listaEstudiantes = NULL;
+
+        Estudiante estudiante1;
+        strcpy(estudiante1.nombre, "Juan");
+        estudiante1.edad = 20;
+        estudiante1.promedio = 90.0;
