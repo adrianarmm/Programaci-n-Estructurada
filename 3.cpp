@@ -28,3 +28,6 @@ int main() {
    printf("Nombre: %s\n", estudiante2.nombre);
    printf("Edad: %d\n", estudiante2.edad);
    printf("Promedio: %.2f\n", estudiante2.promedio);
+
+   return 0;
+}
