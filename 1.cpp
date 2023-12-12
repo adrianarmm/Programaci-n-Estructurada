@@ -47,10 +47,7 @@ void eliminarEstudiante(Nodo **lista, char *nombre) {
     Nodo *actual = *lista;
     Nodo *anterior = NULL;
 
-    void eliminarEstudiante(Nodo **lista, char *nombre) {
 
-        Nodo *actual = *lista;
-        Nodo *anterior = NULL;
 
         if (actual == NULL) {
             printf("No se encontró al estudiante con el nombre proporcionado.\n");
