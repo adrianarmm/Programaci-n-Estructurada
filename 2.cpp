@@ -6,4 +6,4 @@ typedef union {
     int entero;
     float flotante;
     char cadena[100];
-} UniVar
+} UniVar;
