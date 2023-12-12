@@ -18,3 +18,7 @@ Nodo *nuevoNodo(Estudiante estudiante) {
     if (nodo != NULL) {
         nodo->estudiante = estudiante;
         nodo->siguiente = NULL;
+
+    }
+    return nodo;
+}
